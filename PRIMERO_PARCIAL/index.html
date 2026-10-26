@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Supercars Olivos: una selección curada de autos nobles, deportivos y superdeportivos." />
+    
+    <title>Supercars Olivos</title>
+    
+    <!-- Importación de fuentes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="./assets/icono.png">
+</head>
+<body>
+    <header>
+        <nav class= "nav-class">
+            <div class = "div-contenedor-titulo-ul">
+                <div class = "nav-titulo">
+                    <h2>Supercars Olivos</h2>
+                </div>
+                <div>
+                    <ul class = "lista-nav">
+                        <li class = "li-lista-nav">
+                            <p>home</p>
+                        </li>
+                        <li class = "li-lista-nav">
+                            <a href="#section-catalogo">catalogo</a>        
+                        </li>
+                        <li class = "li-lista-nav">
+                            <p>Empresa</p>
+                        </li>
+                        <li class = "li-lista-nav">
+                            <p></p><a href="//www.google.com/maps/place/GT+Automotores/@-34.5012768,-58.4922486,16z/data=!4m11!1m3!2m2!1sconcesionarias+en+olivos!6e6!3m6!1s0x95bcb159f331a433:0x62e873047dfe4fdb!8m2!3d-34.5012768!4d-58.4827214!15sChhjb25jZXNpb25hcmlhcyBlbiBvbGl2b3NaGiIYY29uY2VzaW9uYXJpYXMgZW4gb2xpdm9zkgELYXV0b19icm9rZXKaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUlNkVFp4Y0ZsUkVBReABAPoBBAgUEEc!16s%2Fg%2F11m7hlqc6t?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D">sucursal</a></p>        
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            <div>
+                <a href="#section-realizar-reserva" id="id-contactanos" class="botones-genericos-fomato">contactanos</a>        
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id = "hero-ferrari" class = "hero">
+            <div class = "texto-hero">
+                <h3>
+                    Alta gama. Una sociedad. Un estilo de vida.
+                </h3>
+                <h4>
+                    Nos especializamos en la experiencia de la alta gama.
+                </h4>
+                <a href="#section-realizar-reserva" id="id-primera-experencia" class="botones-genericos-fomato">Reserve su primera experiencia alta gama</a>        
+            </div>
+
+        </section>
+        <section id ="section-catalogo-nobles">
+            <div class = "titulo-botones-autos">
+                <h2>Los que nunca fallan</h2>
+                <div class = "div-botones-precio">
+                <button class = "botones-precios" id= "botones-precios↓-noble" >precio↓</button>
+                <button class = "botones-precios" id= "botones-precios↑-noble" >precio↑</button>
+                </div>
+            </div>
+            <div class = "contenedor-de-vehiculos-nobles"></div>
+        </section>
+        <hr>
+        <section  id ="section-catalogo-deportivos">
+            <div class = "titulo-botones-autos">
+                <h2>Para los mas exigentes</h2>
+                <div class = "div-botones-precio">
+                <button class = "botones-precios" id= "botones-precios↓-deportivo" >precio↓</button>
+                <button class = "botones-precios" id= "botones-precios↑-deportivo" >precio↑</button>
+                </div>
+            </div>
+            <div class = "contenedor-de-vehiculos-deportivos"></div>
+        </section>
+        <section id = "hero-atencion-al-cliente" class = "hero">
+            <div class = "texto-hero2">
+                <h3>
+                Asesoramiento personalizado
+                </h3>
+                <h4>
+                    Un servicio al cliente, a la altura de lo que buscas.
+                </h4>
+                <div class = "button-hero2">
+                    <a href="#section-realizar-reserva" id="id-agendar-turno" class="botones-genericos-fomato">Agendar turno</a>
+                </div>
+            </div>
+        </section>
+        <section id= "section-realizar-reserva">
+            <div class = "seleccion-de-auto">
+                <div class = "cuadro-section-auto">
+                    <div class = "titulo-seleccion-autos">
+                        <h3>¿Que experiencia tenes en mente?</h3>
+                    </div>
+                    <div class = "div-forms">
+                        <form class = "class-form-vehiculos" id="id-form-vehiculos" action="">
+                        <div class = "divs-inputs">
+                            <label for="fname">Tu nombre: </label>
+                            <input type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class = "divs-inputs">
+                            <label for="Emal">Gmail de contacto</label>
+                            <input type="email" id="Emal" name="Emal" placeholder="ejemplo@email.com" required>
+                        </div>
+                        <div class = "divs-inputs">
+                            <label for="Vehiculoname">Vehiculo que quiere reversar: </label>
+                            <input type="text" id="Vehiculoname" name="Vehiculoname" required>
+                        </div>
+                        <div class = "divs-inputs">
+                            <input type="submit" id = "enviar-info" value="Enviar">
+                        </div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-class">
+            <div>
+                <h3>Asesoramiento</h3>
+                <ul class = "footer-ul" id = "footer-asesoramiento">
+                    <li>atencion al cliente: 0800-220-2134</li>
+                    <li>postventa: 0800-220-1231</li>
+                    <li>sucursal: Av. del Libertador 3120</li>
+                    <li>horarios: 09:00 a 18:00, lunes a viernes</li>
+                </ul>
+            </div>
+            <div>
+                <h3>legales de la empresa</h3>
+                <ul class = "footer-ul" id = "footer-legales">
+                    <li>TODOS LOS DERECHOS DE DISTRIBUCION RECERVADOS</li>
+                    <li>Los Vehiculos pueden presentar fallas, no son 0km</li>
+                    <li>la garantia de 1 año </li>
+                    <li>Por dudas con el producto, comuniquese con el fabricante</li>
+                </ul>
+            </div>
+            <div>
+                <h3> ¿quienes somos?</h3>
+                <ul class = "footer-ul" id = "footer-nosotros">
+                    <li>Desde 1994</li>
+                    <li>propietarios: BlackRock y Santander S.A</li>
+                    <li>fundador: Santiago Joaquin Berdia</li>
+                    <li>No vendemos autos, vendemos experiencias de lujo</li>
+                </ul>
+
+            </div>
+        </div>
+        </footer>
+</body>
+<script src="index.js"></script>
+</html>

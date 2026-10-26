@@ -1,0 +1,364 @@
+/*font-family: DM Sans;
+font-family: Manrope;*/
+/*------ ELEMENTOS DEL HTML --------*/
+footer{
+    background-color: rgb(31, 31, 31);
+    padding: 20px 0; 
+    font-family: Manrope;
+
+}
+body{
+    margin: 0px 0px;
+    background-color: rgb(54, 54, 54);
+}
+header{
+    background-color: rgb(31, 31, 31);
+    font-family: Manrope;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+
+}
+a:active{
+    text-decoration: none;
+    color: white;
+
+}
+/*CLASE DE LOS HEROES*/
+
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CLASE SOBRE BOTONES*/
+
+.botones-genericos-fomato{
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: Manrope;
+}
+
+.botones-genericos-fomato:hover{
+    background-color: rgba(56, 56, 56, 0.329);
+}
+
+/*------ CLASES RELACIONADAS AL HEADER --------*/
+.nav-class{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 8vh;
+    padding: 0% 2%;
+}
+.div-contenedor-titulo-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista-nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 0px;
+    width: 25vw;
+}
+.li-lista-nav p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.li-lista-nav:hover{
+    border-bottom: 2px solid white;
+
+}
+#id-contactanos{
+    padding: 6% 5%;
+    font-size: 1.2rem;
+}
+
+
+/*------ CLASES RELACIONADAS AL PRIMER HERO --------*/
+
+#hero-ferrari{
+    background-image: url(./assets/hero.jpg)
+}
+.texto-hero{
+    font-family: DM Sans;
+    padding: 0% 2%;
+    font-size: 2rem;
+    color: white;
+}
+.texto-hero h3{
+    font-size: 2.8rem;
+}
+.texto-hero h4{
+    color: grey;
+    margin-bottom: 45px;
+}
+#reservar-experiencia{
+    width: 22vw;
+    height: 5vh;
+    font-size: 1.2rem;
+
+}
+#id-primera-experencia{
+    padding: 0.7% 0.7%;
+    font-size: 1.2rem;
+}
+/*------ CLASES RELACIONADAS A LOS AUTOS--------*/
+
+.Auto-img{
+    width: 15vw;
+}
+
+.div-nombre-precio-vehiculo{
+    font-family: DM Sans;
+    display: flex;
+    padding: 0% 3%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.contenedor-de-vehiculos-nobles{
+    padding: 0px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-de-vehiculos-deportivos{
+    padding: 0px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-Auto{
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 2%;
+}
+
+/*BOTONES DE LOS AUTOS*/
+
+.titulo-botones-autos{
+    width:30vw;
+    padding: 0% 3%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: DM Sans
+}
+.div-botones-precio{
+    display:flex
+}
+.botones-precios{
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.267);
+    font-size: 1rem;
+    font-family: Manrope;
+}
+.botones-precios:hover{
+    background-color: rgba(0, 0, 0, 0.733);
+    color:white;
+    cursor: pointer;
+}
+.botones-mas-info{
+    font-family: Manrope;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    background-color:white;
+    border-radius: 10px;
+    align-items: center;
+}
+.botones-mas-info:hover{
+    background-color: rgba(158, 158, 158, 0);
+    color:white;
+    cursor: pointer; 
+}
+/*------ CLASES RELACIONADAS AL SEGUNDO HERO --------*/
+
+#hero-atencion-al-cliente{
+    background-image: url("https://images.netdirector.co.uk/gforces-auto/image/upload/w_1338,h_753,q_auto,c_fill,f_auto,fl_lossy/auto-client/fe21bad0b5876cc613076f50754316a4/16_9_fit_to_screen_lifestyle.jpg");
+}
+.texto-hero2{
+    font-family: DM Sans;
+    padding: 0% 2%;
+    color: white;
+}
+.texto-hero2 h3{
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.texto-hero2 h4{
+    margin-top: 20px;
+    font-size:1.7rem;
+    color: rgb(126, 126, 126);
+    margin-bottom: 45px;
+}
+.button-hero2{
+    display: flex;
+    width: 17vw;
+    justify-content: space-between;
+}
+
+#hero-atencion-al-cliente{
+    height: 100vh;
+}
+
+#id-agendar-turno{
+    padding: 2% 2%;
+    font-size: 1.2rem;
+}
+
+/*------------ INPUTS DEL FINAL -------------*/
+
+.seleccion-de-auto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-size: 1.4rem;
+
+}
+.cuadro-section-auto{
+    height: 33vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.5% 0.5%;
+    background-color:  rgb(37, 37, 37);
+    color: white;
+    font-family: DM Sans;
+}
+.titulo-seleccion-autos{
+    text-align: center;
+}
+.class-form-vehiculos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+.divs-inputs{
+    display: flex;
+    flex-direction: column;
+}
+#enviar-info{
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-family: Manrope;
+}
+#enviar-info:hover{
+    background-color: rgba(158, 158, 158, 0);
+    color:white;
+    cursor: pointer; 
+}
+/*---------------- FOOTER DE LA PAGINA -----------*/
+.footer-class{
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-class h3{
+    text-align: center;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+/*SECCION DEDICADA A Los responsive layout*/
+/*RELACIONADOS AL WIDTH*/
+@media screen and (max-width: 1004px){
+.Auto-img{
+    width: 40vw;
+}
+
+.contenedor-de-vehiculos-nobles{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenedor-de-vehiculos-deportivos{
+    flex-direction: column;
+    justify-content: space-between;
+}
+}
+@media screen and (max-width: 657px){
+.div-contenedor-titulo-ul{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav-class{
+    height:20%
+}
+.nav-titulo h2{
+    margin: 0px 0px;
+}
+.lista-nav{
+    height: 5%;
+}
+}
+@media screen and (max-width:462px){
+.footer-class{
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 454px){
+.titulo-seleccion-autos h3{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.cuadro-section-auto{
+    height: 37vh;
+}
+}
+@media screen and (max-width: 416px){
+.nav-titulo h2{
+    width: 20vw;
+}
+}
+@media screen and (max-width: 362px){
+.texto-hero2 h3{
+    font-size: 2.5rem;
+}
+}
+@media screen and (max-width: 322px){
+.div-botones-precio{
+    flex-direction: column;
+}
+}
+/*RELACIONADOS AL HEIGHT*/
+@media screen and (max-height:790px) {
+.titulo-seleccion-autos h3{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.seleccion-de-auto{
+    height: 60vh;
+}
+.cuadro-section-auto{
+    height: 38vh;
+}
+}
+@media screen and (max-height:661px) {
+.cuadro-section-auto{
+    height: 42vh;
+}
+}
+
+
